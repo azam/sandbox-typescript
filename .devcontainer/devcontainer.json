@@ -5,6 +5,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "ms-vsliveshare.vsliveshare",
         "orta.vscode-jest",
         "firsttris.vscode-jest-runner",
         "esbenp.prettier-vscode",

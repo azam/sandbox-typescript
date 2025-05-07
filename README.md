@@ -37,6 +37,10 @@ npm run clean
 npm install
 ```
 
+## Live Share
+
+If run from Github Codespaces or VS Code with Live Share extension, you can share the session by creating a collboration session from the Live Share on the right sidebar and click on "Start collaboration session".
+
 ## [License](LICENSE)
 
 MIT License Copyright (c) 2025 Azamshul Azizy
