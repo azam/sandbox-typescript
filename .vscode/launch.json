@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Typescript",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": ["tsx", "${file}"],
+      "runtimeExecutable": "npx",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run main.ts",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": ["tsx", "src/main.ts"],
+      "runtimeExecutable": "npx",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run Jest",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": ["jest"],
+      "runtimeExecutable": "npx",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

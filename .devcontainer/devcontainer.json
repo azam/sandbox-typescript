@@ -1,0 +1,30 @@
+{
+  "name": "devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "orta.vscode-jest",
+        "firsttris.vscode-jest-runner",
+        "esbenp.prettier-vscode",
+        "edbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "telemetry.telemetryLevel": "off",
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[json]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[jsonc]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      }
+    }
+  }
+}
