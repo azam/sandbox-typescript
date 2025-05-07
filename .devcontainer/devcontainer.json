@@ -16,6 +16,7 @@
         "liveshare.allowGuestTaskControl": true,
         "liveshare.allowGuestDebugControl": true,
         "liveshare.languages.allowGuestCommandControl": true,
+        "jest.runMode": "on-demand",
         "[typescript]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
